@@ -1,0 +1,3 @@
+note
+
+https://stackoverflow.com/questions/8597993/does-roxygen2-automatically-write-namespace-directives-for-imports-packages

@@ -1,10 +1,11 @@
 Package: SuSoPara
 Title: This package provide some standard functions for processing data from Survey Solutions.
 Version: 0.0.0.9000
-Authors@R: Michael Rahija, michael.rahija@gmail.com, author and creator.
+Authors@R: person("Rahija", "Michael", "michael.rahija@gmail.com",c("aut","cre"))
 Description: This package simplifies common tasks for surveys implemented with Survey Solutions. It is designed to help survey managers monitor field activities, and automate reporting from paradata. 
 Depends: R (>= 3.3.2)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+Imports: tidyr, reshape, stringr, lubridate, dplyr

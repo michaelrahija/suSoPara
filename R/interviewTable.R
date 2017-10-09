@@ -5,13 +5,14 @@
 #'Interviewer, Supervisor, HQApproved (# of times), SuperApproved (# of times)
 #'Starttime, Endtime, and Duration (FirstAnswerSet - Completed)
 #'
-#' @param x
+#' @param x This must be the interview actions file in .tab format.
 #'
 #' @return A dataframe with the computations listed above.
+#' @author Michael Rahija
+#' @import dplyr
+#' @import reshape
 #' @export
-#'
-#' @examples
- 
+
  
 interviewTable <- function(x){
   

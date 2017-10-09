@@ -7,7 +7,7 @@
 interviewTable(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{This must be the interview actions file in .tab format.}
 }
 \value{
 A dataframe with the computations listed above.
@@ -17,4 +17,7 @@ This function requires the interview actions as a dataframe.
 It returns a dataframe sorted by interview including interview id,
 Interviewer, Supervisor, HQApproved (# of times), SuperApproved (# of times)
 Starttime, Endtime, and Duration (FirstAnswerSet - Completed)
+}
+\author{
+Michael Rahija
 }
