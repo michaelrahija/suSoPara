@@ -2,9 +2,6 @@
 #'
 #'@param number is a value in seconds
 #'@return The vale in Day:Hours:Minutes:Seconds format
-#'@example
-#'converttime(60)
-#'converttime(86400)
 #'@export
 
 converttime <- function(number){
