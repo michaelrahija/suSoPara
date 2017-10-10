@@ -1,5 +1,6 @@
-#' interviewTable
+#' @title interviewTable
 #'
+#'@description
 #'This function requires the interview actions as a dataframe. 
 #'It returns a dataframe sorted by interview including interview id,
 #'Interviewer, Supervisor, HQApproved (# of times), SuperApproved (# of times)
